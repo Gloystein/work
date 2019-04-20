@@ -91,7 +91,7 @@ def time_stats(df, city, month, day):
     month_most = df['month'].mode()[0]
     month_most_name = months[df['month'].mode()[0]-1]
     if month == 'All':
-        print('The most common month of bikeshare usage in {} is: {}'.format(city.title(),month_most_name))
+        print('The most common month of bike usage in {} is: {}'.format(city.title(),month_most_name))
 
     # TO DO: display the most common day of week
     if day == 'All'
