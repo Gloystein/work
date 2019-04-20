@@ -29,7 +29,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         try:
-            month = str(input('Please choose a month: All, January, February, March, April, May, June:')).title()
+            month = str(input('Please choose between months: All, January, February, March, April, May, June:')).title()
         except ValueError:
             continue
         if month in months:
