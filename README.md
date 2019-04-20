@@ -19,3 +19,5 @@ git commit -m "MESSAGE"
 hinzugefügt
 
 zweites Beispiel
+
+drittes Beispiel
